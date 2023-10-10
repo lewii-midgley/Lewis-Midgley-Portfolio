@@ -1,0 +1,91 @@
+/* Landing Page */
+
+
+.landing-page{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid pink;
+}
+
+.nameAndIMG{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 7%;
+}
+
+.top-img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 4%;
+}
+
+.top-img--img{
+    height: 30rem;
+}
+
+.top-text--h1{
+    font-size: 8rem;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding-bottom: 2rem;
+}
+
+.top-text--h4{
+    font-size: 2.6rem;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    padding-left: 0.8rem;
+}
+
+.bottom-icons{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-icons--img{
+    height: 4rem;
+}
+
+/* Landing Page Finished */
+
+
+
+@media #{$mobile}{
+    .landing-page{
+        display: none;
+    }
+}
+
+@media #{$tablet}{
+
+    .landing-page{
+        display: none;
+    }
+}
+
+
+

@@ -1,0 +1,31 @@
+.navBar{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+    position: sticky;
+    top: 0px;
+}
+
+.navBar--li{
+    color: white;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+
+@media #{$mobile}{
+    .navBar{
+        display: none;
+    }
+}
+
+@media #{$tablet}{
+    .navBar{
+        display: none;
+    }
+}

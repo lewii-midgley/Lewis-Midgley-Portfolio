@@ -1,0 +1,36 @@
+/* Presets */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  overflow-x: hidden;
+  /* height: 200vh;
+  width: 100vw; */
+  background: url(../img/background.jpg);
+  background-color: #484848;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul{
+  list-style: none;
+}
+
+a, a:link, a:after, a:visited,  a:hover, a:active{
+  color: white;
+  text-decoration: none;
+}
+
+/* Presets Finished */

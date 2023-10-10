@@ -1,6 +1,6 @@
 console.log("linked");
 
-let titles = [' Web', ' UX', ' UI', ' Graphic'];
+let titles = [' Web Developer', ' UX Designer', ' UI Designer', ' Graphic Designer'];
 let currentIndex = 0;
 let aSpan = document.getElementById('heroWord');
 
@@ -16,22 +16,43 @@ setInterval(() => {
  }, 1500)
 
 
- $(".project1").hover(function() {
-    $(".project1--h1").html("HandyFix Website Re-Build");
+ $(".projects-page--projects--project1").hover(function() {
+    $(".projects-page--projects--project1--h1").html("Northern Construction");
 }, function() {
-    $(".project1--h1").html("");
+    $(".projects-page--projects--project1--h1").html("");
 });
 
 
-$(".project2").hover(function() {
-    $(".project2--h1").html("New Zealand SurfBreak Protection Website");
+$(".projects-page--projects--project2").hover(function() {
+    $(".projects-page--projects--project2--h1").html("Sanctuary");
 }, function() {
-    $(".project2--h1").html("");
+    $(".projects-page--projects--project2--h1").html("");
 });
 
 
-$(".project3").hover(function() {
-    $(".project3--h1").html("Sanctuary - Full Stack Application");
+$(".projects-page--projects--project3").hover(function() {
+    $(".projects-page--projects--project3--h1").html("100% Pure New Zealand");
 }, function() {
-    $(".project3--h1").html("");
+    $(".projects-page--projects--project3--h1").html("");
+});
+
+
+$(".projects-page--projects--project4").hover(function() {
+    $(".projects-page--projects--project4--h1").html("The World News");
+}, function() {
+    $(".projects-page--projects--project4--h1").html("");
+});
+
+
+$(".projects-page--projects--project5").hover(function() {
+    $(".projects-page--projects--project5--h1").html("OpenFolio");
+}, function() {
+    $(".projects-page--projects--project5--h1").html("");
+});
+
+
+$(".projects-page--projects--project6").hover(function() {
+    $(".projects-page--projects--project6--h1").html("The Student Brewery");
+}, function() {
+    $(".projects-page--projects--project6--h1").html("");
 });
