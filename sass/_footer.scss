@@ -8,6 +8,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 2px solid yellow;
+
+    &-icons{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+    
+        &--icon{
+            height: 5rem;
+            width: 5rem;
+            margin: 4rem;
+            cursor: pointer;
+        }
+    
+        &--icon:hover{
+            opacity: 90%;
+        }
+    }
 }
 
 .footer--h3{
@@ -19,6 +40,10 @@
     text-align: center;
     padding-top: 4rem;
 }
+
+
+
+
 
 /* Footer Finish */
 

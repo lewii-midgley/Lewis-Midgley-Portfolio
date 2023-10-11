@@ -1,6 +1,6 @@
 console.log("linked");
 
-let titles = [' Web Developer', ' UX Designer', ' UI Designer', ' Graphic Designer'];
+let titles = [' Web Developer', ' UX Designer', ' Photographer', ' Landscaper'];
 let currentIndex = 0;
 let aSpan = document.getElementById('heroWord');
 
@@ -55,4 +55,16 @@ $(".projects-page--projects--project6").hover(function() {
     $(".projects-page--projects--project6--h1").html("The Student Brewery");
 }, function() {
     $(".projects-page--projects--project6--h1").html("");
+});
+
+$(".projects-page--projects--project7").hover(function() {
+    $(".projects-page--projects--project7--h1").html("HandyFix");
+}, function() {
+    $(".projects-page--projects--project7--h1").html("");
+});
+
+$(".projects-page--projects--project8").hover(function() {
+    $(".projects-page--projects--project8--h1").html("Surfbreak Protection Society");
+}, function() {
+    $(".projects-page--projects--project8--h1").html("");
 });

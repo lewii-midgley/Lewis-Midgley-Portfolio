@@ -1,5 +1,5 @@
-/* Landing Page */
 
+/* Landing Page */
 
 .landing-page{
     height: 80vh;
@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 7%;
+    padding-left: 10%;
 }
 
 .top-img{
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 4%;
+    padding-left: 5%;
 }
 
 .top-img--img{
@@ -41,7 +41,7 @@
 }
 
 .top-text--h1{
-    font-size: 8rem;
+    font-size: 7.4rem;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
@@ -64,10 +64,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    border: 2px solid green;
 
-.bottom-icons--img{
-    height: 4rem;
+    &--icon{
+        height: 6rem;
+        width: 6rem;
+        margin: 4rem;
+        cursor: pointer;
+    }
+
+    &--icon:hover{
+        opacity: 90%;
+    }
 }
 
 /* Landing Page Finished */
@@ -85,6 +93,22 @@
     .landing-page{
         display: none;
     }
+}
+
+@media #{$preTablet}{
+
+    .top-text--h1{
+        font-size: 5.8rem;
+    }
+
+    .top-text--h4{
+        font-size: 2rem;
+    }
+}
+
+
+@media #{$largeDesktop}{
+
 }
 
 
