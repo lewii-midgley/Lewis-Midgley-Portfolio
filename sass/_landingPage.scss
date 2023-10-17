@@ -2,11 +2,10 @@
 /* Landing Page */
 
 .landing-page{
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    border: 2px solid pink;
 }
 
 .nameAndIMG{
@@ -14,6 +13,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    padding-top: 10%;
 }
 
 .top-text{
@@ -64,7 +64,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid green;
 
     &--icon{
         height: 6rem;

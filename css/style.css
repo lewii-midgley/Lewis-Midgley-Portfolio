@@ -7,8 +7,6 @@
 
 body {
   overflow-x: hidden;
-  /* height: 200vh;
-  width: 100vw; */
   background: url(../img/background.jpg);
   background-color: #484848;
   background-blend-mode: multiply;
@@ -29,18 +27,19 @@ a, a:link, a:after, a:visited, a:hover, a:active {
 
 /* Presets Finished */
 .navBar {
-  height: 20vh;
-  width: 100%;
+  height: 80vh;
+  width: 8%;
+  position: fixed;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding-right: 2%;
-  position: sticky;
-  top: 0px; }
+  padding-top: 20vh;
+  margin-left: 92%;
+  border: 2px solid yellow; }
 
 .navBar--li {
   color: white;
-  padding: 1rem;
+  padding: 4rem;
   font-size: 1.4rem;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.1rem; }
@@ -53,17 +52,17 @@ a, a:link, a:after, a:visited, a:hover, a:active {
     display: none; } }
 /* Landing Page */
 .landing-page {
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: column;
-  border: 2px solid pink; }
+  flex-direction: column; }
 
 .nameAndIMG {
   height: 70%;
   width: 100%;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  padding-top: 10%; }
 
 .top-text {
   height: 100%;
@@ -107,8 +106,7 @@ a, a:link, a:after, a:visited, a:hover, a:active {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 2px solid green; }
+  align-items: center; }
   .bottom-icons--icon {
     height: 6rem;
     width: 6rem;
@@ -131,6 +129,9 @@ a, a:link, a:after, a:visited, a:hover, a:active {
   .top-text--h4 {
     font-size: 2rem; } }
 /* Footer */
+.footerGap {
+  height: 10rem; }
+
 .footer {
   height: 20rem;
   width: 100vw;
@@ -138,15 +139,14 @@ a, a:link, a:after, a:visited, a:hover, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  border: 2px solid yellow; }
+  flex-direction: column; }
   .footer-icons {
-    height: 40%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid green; }
+    padding-top: 4rem; }
     .footer-icons--icon {
       height: 5rem;
       width: 5rem;
@@ -154,15 +154,29 @@ a, a:link, a:after, a:visited, a:hover, a:active {
       cursor: pointer; }
     .footer-icons--icon:hover {
       opacity: 90%; }
-
-.footer--h3 {
-  font-size: 1.4rem;
-  color: white;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  text-align: center;
-  padding-top: 4rem; }
+  .footer-btt {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5rem; }
+    .footer-btt__img {
+      height: 3.5rem; }
+  .footer-text {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem; }
+    .footer-text__h3 {
+      font-size: 1.4rem;
+      color: white;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.2rem;
+      text-align: center; }
 
 /* Footer Finish */
 @media (max-width: 600px) {
@@ -177,17 +191,15 @@ a, a:link, a:after, a:visited, a:hover, a:active {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow;
   padding-left: 8%;
   padding-right: 8%; }
   .projects-page--header {
-    height: 15%;
+    height: 12%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: 2px solid blue; }
+    flex-direction: column; }
   .projects-page--header-h2 {
     font-size: 4rem;
     color: white;
@@ -195,12 +207,11 @@ a, a:link, a:after, a:visited, a:hover, a:active {
     font-weight: 500;
     letter-spacing: 0.3rem; }
   .projects-page--projects {
-    height: 85%;
+    height: 88%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-    border: 2px solid red; }
+    flex-wrap: wrap; }
     .projects-page--projects--project1 {
       height: 26rem;
       width: 32rem;
@@ -230,7 +241,7 @@ a, a:link, a:after, a:visited, a:hover, a:active {
     .projects-page--projects--project2 {
       height: 26rem;
       width: 32rem;
-      background: url(../img/sanctuary.jpg);
+      background: url(../img/sanc.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -459,9 +470,36 @@ a, a:link, a:after, a:visited, a:hover, a:active {
       height: 32rem;
       width: 38rem;
       margin: 2rem; } }
-.review-section {
-  height: 100vh;
+.tools-section {
+  height: 40rem;
   width: 100vw;
-  border: 2px solid purple; }
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%; }
+  .tools-section--topText {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .tools-section--topText_h3 {
+      color: white;
+      font-family: 'Work Sans', sans-serif;
+      letter-spacing: 0.1rem;
+      font-size: 1.4rem; }
+  .tools-section--icons {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%; }
+    .tools-section--icons_icon {
+      height: 7rem;
+      margin-left: 3.2rem;
+      margin-right: 3.2rem; }
 
 /*# sourceMappingURL=style.css.map */

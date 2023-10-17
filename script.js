@@ -1,6 +1,6 @@
 console.log("linked");
 
-let titles = [' Web Developer', ' UX Designer', ' Photographer', ' Landscaper'];
+let titles = [' Web Developer', ' UX Designer', ' Landscaper'];
 let currentIndex = 0;
 let aSpan = document.getElementById('heroWord');
 
@@ -10,7 +10,7 @@ setInterval(() => {
     
     currentIndex++;
     
-    if (currentIndex === 4)
+    if (currentIndex === 3)
      currentIndex = 0;
  
  }, 1500)

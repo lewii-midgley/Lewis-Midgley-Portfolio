@@ -1,5 +1,10 @@
 /* Footer */
 
+
+.footerGap{
+    height: 10rem;
+}
+
 .footer{
     height: 20rem;
     width: 100vw;
@@ -8,15 +13,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid yellow;
 
     &-icons{
-        height: 40%;
+        height: 50%;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid green;
+        padding-top: 4rem;
     
         &--icon{
             height: 5rem;
@@ -29,19 +33,38 @@
             opacity: 90%;
         }
     }
+
+    &-btt{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 5rem;
+
+        &__img{
+            height: 3.5rem;
+        }
+    }
+
+    &-text{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4rem;
+
+        &__h3{
+            font-size: 1.4rem;
+            color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 500;
+            letter-spacing: 0.2rem;
+            text-align: center;
+        }
+    }
 }
-
-.footer--h3{
-    font-size: 1.4rem;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.2rem;
-    text-align: center;
-    padding-top: 4rem;
-}
-
-
 
 
 
