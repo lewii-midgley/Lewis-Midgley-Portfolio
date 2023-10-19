@@ -2,7 +2,7 @@
 
 
 .footerGap{
-    height: 10rem;
+    height: 5rem;
 }
 
 .footer{
@@ -73,26 +73,40 @@
 
 
 @media #{$mobile}{
-    .footer{
-        display: none;
-    }
 
     .footerGap{
-        display: none;
+        height: 4rem;
     }
+
+    .footer{
+    
+        &-icons{
+            height: 50%;
+            padding-top: 3rem;
+        
+            &--icon{
+                height: 4rem;
+                width: 4rem;
+                margin: 2.5rem;
+            }
+        }
+
+        &-btt{
+            display: none;
+        }
+
+        &-text{
+            height: 50%;
+            padding-bottom: 3rem;
+        }
+    }
+
 }
 
 
 
 
-
-
-
 @media #{$tablet}{
-
-    .footerGap{
-        height: 5rem;
-    }
 
     .footer{
     

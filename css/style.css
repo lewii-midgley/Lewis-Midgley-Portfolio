@@ -116,8 +116,35 @@ a, a:link, a:after, a:visited, a:hover, a:active {
 
 /* Landing Page Finished */
 @media (max-width: 600px) {
-  .landing-page {
-    display: none; } }
+  .nameAndIMG {
+    height: 60%;
+    padding: 0;
+    padding-bottom: 5rem; }
+
+  .top-text {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0; }
+
+  .top-img {
+    display: none; }
+
+  .top-text--h1 {
+    font-size: 5rem; }
+
+  .top-text--h4 {
+    font-size: 2rem;
+    padding-left: 0rem; }
+
+  .bottom-icons {
+    height: 40%;
+    align-items: flex-start;
+    padding: 0; }
+    .bottom-icons--icon {
+      height: 4rem;
+      width: 4rem;
+      margin: 2.5rem; } }
 @media (min-width: 601px) and (max-width: 1023px) {
   .nameAndIMG {
     height: 60%;
@@ -155,7 +182,7 @@ a, a:link, a:after, a:visited, a:hover, a:active {
     font-size: 2rem; } }
 /* Footer */
 .footerGap {
-  height: 10rem; }
+  height: 5rem; }
 
 .footer {
   height: 20rem;
@@ -205,15 +232,22 @@ a, a:link, a:after, a:visited, a:hover, a:active {
 
 /* Footer Finish */
 @media (max-width: 600px) {
-  .footer {
+  .footerGap {
+    height: 4rem; }
+
+  .footer-icons {
+    height: 50%;
+    padding-top: 3rem; }
+    .footer-icons--icon {
+      height: 4rem;
+      width: 4rem;
+      margin: 2.5rem; }
+  .footer-btt {
     display: none; }
-
-  .footerGap {
-    display: none; } }
+  .footer-text {
+    height: 50%;
+    padding-bottom: 3rem; } }
 @media (min-width: 601px) and (max-width: 1023px) {
-  .footerGap {
-    height: 5rem; }
-
   .footer-icons {
     height: 50%;
     padding-top: 3rem; }
@@ -463,7 +497,85 @@ a, a:link, a:after, a:visited, a:hover, a:active {
 
 @media (max-width: 600px) {
   .projects-page {
-    display: none; } }
+    height: 360rem;
+    padding-left: 0%;
+    padding-right: 0%; }
+    .projects-page--header {
+      height: 5%; }
+    .projects-page--projects {
+      height: 95%; }
+      .projects-page--projects--project1 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project1--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project2 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project2--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project3 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project3--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project4 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project4--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project5 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project5--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project6 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project6--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project7 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project7--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project8 {
+        height: 33rem;
+        width: 37rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        .projects-page--projects--project8--h1 {
+          font-size: 1.8rem; } }
 @media (min-width: 601px) and (max-width: 1023px) {
   .projects-page {
     height: 360rem;

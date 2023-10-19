@@ -82,8 +82,43 @@
 
 
 @media #{$mobile}{
-    .landing-page{
+
+    .nameAndIMG{
+        height: 60%;
+        padding: 0;
+        padding-bottom: 5rem;
+    }
+    
+    .top-text{
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .top-img{
         display: none;
+    }
+    
+    .top-text--h1{
+        font-size: 5rem;
+    }
+    
+    .top-text--h4{
+        font-size: 2rem;
+        padding-left: 0rem;
+    }
+    
+    .bottom-icons{
+        height: 40%;
+        align-items: flex-start;
+        padding: 0;
+    
+        &--icon{
+            height: 4rem;
+            width: 4rem;
+            margin: 2.5rem;
+        }
     }
 }
 

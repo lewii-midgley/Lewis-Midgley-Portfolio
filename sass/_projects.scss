@@ -1,3 +1,4 @@
+
 /* Projects Page Start */
 
 .projects-page{
@@ -295,8 +296,123 @@
 
 
 @media #{$mobile}{
+
     .projects-page{
-        display: none;
+        height: 360rem;
+        padding-left: 0%;
+        padding-right: 0%;
+    
+        &--header{
+            height: 5%;
+        }
+    
+        &--projects{
+            height: 95%;
+    
+            &--project1{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project2{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project3{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project4{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project5{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project6{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project7{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project8{
+                height: 33rem;
+                width: 37rem;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+        }
     }
 }
 
