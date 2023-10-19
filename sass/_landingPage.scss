@@ -66,8 +66,8 @@
     align-items: center;
 
     &--icon{
-        height: 6rem;
-        width: 6rem;
+        height: 5rem;
+        width: 5rem;
         margin: 4rem;
         cursor: pointer;
     }
@@ -87,17 +87,21 @@
     }
 }
 
+
+
 @media #{$tablet}{
     
     .nameAndIMG{
         height: 60%;
-        padding-top: 25rem;
+        padding: 0;
+        padding-bottom: 5rem;
     }
     
     .top-text{
         width: 100%;
+        justify-content: flex-end;
         align-items: center;
-        padding-left: 0%;
+        padding: 0;
     }
     
     .top-img{
@@ -116,6 +120,7 @@
     .bottom-icons{
         height: 40%;
         align-items: flex-start;
+        padding: 0;
     
         &--icon{
             height: 5rem;
@@ -123,6 +128,8 @@
         }
     }
 }
+
+
 
 
 @media #{$preTablet}{
