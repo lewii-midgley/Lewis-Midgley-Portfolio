@@ -42,3 +42,45 @@
     }
 }
 
+
+@media #{$mobile}{
+
+    .tools-section{
+        display: none;
+    }
+}
+
+
+
+
+@media #{$tablet}{
+
+    .tools-section{
+        height: 45rem;
+        width: 100vw;
+        padding-left: 5%;
+        padding-right: 5%;
+    
+        &--topText{
+            height: 20%;
+            text-align: center;
+    
+            &_h3{
+                font-size: 1.4rem;
+                text-align: center;
+            }
+        }
+    
+    
+        &--icons{
+            height: 80%;
+            padding-left: 0%;
+            padding-right: 0%;
+    
+            &_icon{
+                height: 6rem;
+            }
+        }
+    }
+}
+

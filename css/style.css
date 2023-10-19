@@ -34,8 +34,7 @@ a, a:link, a:after, a:visited, a:hover, a:active {
   justify-content: center;
   align-items: center;
   padding-top: 20vh;
-  margin-left: 92%;
-  border: 2px solid yellow; }
+  margin-left: 92%; }
 
 .navBar--li {
   color: white;
@@ -120,8 +119,31 @@ a, a:link, a:after, a:visited, a:hover, a:active {
   .landing-page {
     display: none; } }
 @media (min-width: 601px) and (max-width: 1023px) {
-  .landing-page {
-    display: none; } }
+  .nameAndIMG {
+    height: 60%;
+    padding-top: 25rem; }
+
+  .top-text {
+    width: 100%;
+    align-items: center;
+    padding-left: 0%; }
+
+  .top-img {
+    display: none; }
+
+  .top-text--h1 {
+    font-size: 7rem; }
+
+  .top-text--h4 {
+    font-size: 2.4rem;
+    padding-left: 0rem; }
+
+  .bottom-icons {
+    height: 40%;
+    align-items: flex-start; }
+    .bottom-icons--icon {
+      height: 5rem;
+      width: 5rem; } }
 @media (min-width: 1024px) and (max-width: 1295px) {
   .top-text--h1 {
     font-size: 5.8rem; }
@@ -181,10 +203,25 @@ a, a:link, a:after, a:visited, a:hover, a:active {
 /* Footer Finish */
 @media (max-width: 600px) {
   .footer {
+    display: none; }
+
+  .footerGap {
     display: none; } }
 @media (min-width: 601px) and (max-width: 1023px) {
-  .footer {
-    display: none; } }
+  .footerGap {
+    height: 5rem; }
+
+  .footer-icons {
+    height: 50%;
+    padding-top: 3rem; }
+    .footer-icons--icon {
+      height: 4.5rem;
+      width: 4.5rem; }
+  .footer-btt {
+    display: none; }
+  .footer-text {
+    height: 50%;
+    padding-bottom: 3rem; } }
 /* Projects Page Start */
 .projects-page {
   height: 130rem;
@@ -426,7 +463,61 @@ a, a:link, a:after, a:visited, a:hover, a:active {
     display: none; } }
 @media (min-width: 601px) and (max-width: 1023px) {
   .projects-page {
-    display: none; } }
+    height: 360rem;
+    padding-left: 9%;
+    padding-right: 9%; }
+    .projects-page--header {
+      height: 5%; }
+    .projects-page--projects {
+      height: 95%; }
+      .projects-page--projects--project1 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project1--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project2 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project2--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project3 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project3--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project4 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project4--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project5 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project5--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project6 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project6--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project7 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project7--h1 {
+          font-size: 1.8rem; }
+      .projects-page--projects--project8 {
+        height: 34rem;
+        width: 38rem;
+        margin: 4rem; }
+        .projects-page--projects--project8--h1 {
+          font-size: 1.8rem; } }
 @media (min-width: 1024px) and (max-width: 1295px) {
   .projects-page {
     height: 150rem; }
@@ -501,5 +592,27 @@ a, a:link, a:after, a:visited, a:hover, a:active {
       height: 7rem;
       margin-left: 3.2rem;
       margin-right: 3.2rem; }
+
+@media (max-width: 600px) {
+  .tools-section {
+    display: none; } }
+@media (min-width: 601px) and (max-width: 1023px) {
+  .tools-section {
+    height: 45rem;
+    width: 100vw;
+    padding-left: 5%;
+    padding-right: 5%; }
+    .tools-section--topText {
+      height: 20%;
+      text-align: center; }
+      .tools-section--topText_h3 {
+        font-size: 1.4rem;
+        text-align: center; }
+    .tools-section--icons {
+      height: 80%;
+      padding-left: 0%;
+      padding-right: 0%; }
+      .tools-section--icons_icon {
+        height: 6rem; } }
 
 /*# sourceMappingURL=style.css.map */

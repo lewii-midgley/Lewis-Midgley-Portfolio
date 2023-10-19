@@ -300,11 +300,116 @@
     }
 }
 
+
+
+
+
+
+
+
 @media #{$tablet}{
+
     .projects-page{
-        display: none;
+        height: 360rem;
+        padding-left: 9%;
+        padding-right: 9%;
+    
+        &--header{
+            height: 5%;
+        }
+    
+        &--projects{
+            height: 95%;
+    
+            &--project1{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project2{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project3{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project4{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project5{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project6{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project7{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+    
+            &--project8{
+                height: 34rem;
+                width: 38rem;
+                margin: 4rem;
+            
+                &--h1{
+                    font-size: 1.8rem;
+                }
+            }
+        }
     }
 }
+
+
+
+
+
+
+
 
 @media #{$preTablet}{
     .projects-page{

@@ -88,11 +88,42 @@
 }
 
 @media #{$tablet}{
-
-    .landing-page{
+    
+    .nameAndIMG{
+        height: 60%;
+        padding-top: 25rem;
+    }
+    
+    .top-text{
+        width: 100%;
+        align-items: center;
+        padding-left: 0%;
+    }
+    
+    .top-img{
         display: none;
     }
+    
+    .top-text--h1{
+        font-size: 7rem;
+    }
+    
+    .top-text--h4{
+        font-size: 2.4rem;
+        padding-left: 0rem;
+    }
+    
+    .bottom-icons{
+        height: 40%;
+        align-items: flex-start;
+    
+        &--icon{
+            height: 5rem;
+            width: 5rem;
+        }
+    }
 }
+
 
 @media #{$preTablet}{
 

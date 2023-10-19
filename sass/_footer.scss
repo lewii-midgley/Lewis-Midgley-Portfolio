@@ -76,10 +76,43 @@
     .footer{
         display: none;
     }
+
+    .footerGap{
+        display: none;
+    }
 }
 
+
+
+
+
+
+
 @media #{$tablet}{
+
+    .footerGap{
+        height: 5rem;
+    }
+
     .footer{
-        display: none;
+    
+        &-icons{
+            height: 50%;
+            padding-top: 3rem;
+        
+            &--icon{
+                height: 4.5rem;
+                width: 4.5rem;
+            }
+        }
+
+        &-btt{
+            display: none;
+        }
+
+        &-text{
+            height: 50%;
+            padding-bottom: 3rem;
+        }
     }
 }
