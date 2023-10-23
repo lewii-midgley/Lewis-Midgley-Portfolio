@@ -131,10 +131,10 @@ a, a:link, a:after, a:visited, a:hover, a:active {
     display: none; }
 
   .top-text--h1 {
-    font-size: 5rem; }
+    font-size: 4rem; }
 
   .top-text--h4 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding-left: 0rem; }
 
   .bottom-icons {
@@ -246,7 +246,9 @@ a, a:link, a:after, a:visited, a:hover, a:active {
     display: none; }
   .footer-text {
     height: 50%;
-    padding-bottom: 3rem; } }
+    padding-bottom: 3rem; }
+    .footer-text__h3 {
+      font-size: 1.2rem; } }
 @media (min-width: 601px) and (max-width: 1023px) {
   .footer-icons {
     height: 50%;
@@ -498,15 +500,15 @@ a, a:link, a:after, a:visited, a:hover, a:active {
 @media (max-width: 600px) {
   .projects-page {
     height: 360rem;
-    padding-left: 0%;
-    padding-right: 0%; }
+    padding-left: 2%;
+    padding-right: 2%; }
     .projects-page--header {
       height: 5%; }
     .projects-page--projects {
       height: 95%; }
       .projects-page--projects--project1 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
@@ -514,8 +516,8 @@ a, a:link, a:after, a:visited, a:hover, a:active {
         .projects-page--projects--project1--h1 {
           font-size: 1.8rem; }
       .projects-page--projects--project2 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
@@ -523,8 +525,8 @@ a, a:link, a:after, a:visited, a:hover, a:active {
         .projects-page--projects--project2--h1 {
           font-size: 1.8rem; }
       .projects-page--projects--project3 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
@@ -532,8 +534,8 @@ a, a:link, a:after, a:visited, a:hover, a:active {
         .projects-page--projects--project3--h1 {
           font-size: 1.8rem; }
       .projects-page--projects--project4 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
@@ -541,8 +543,8 @@ a, a:link, a:after, a:visited, a:hover, a:active {
         .projects-page--projects--project4--h1 {
           font-size: 1.8rem; }
       .projects-page--projects--project5 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
@@ -550,8 +552,8 @@ a, a:link, a:after, a:visited, a:hover, a:active {
         .projects-page--projects--project5--h1 {
           font-size: 1.8rem; }
       .projects-page--projects--project6 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
@@ -559,8 +561,8 @@ a, a:link, a:after, a:visited, a:hover, a:active {
         .projects-page--projects--project6--h1 {
           font-size: 1.8rem; }
       .projects-page--projects--project7 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
@@ -568,8 +570,8 @@ a, a:link, a:after, a:visited, a:hover, a:active {
         .projects-page--projects--project7--h1 {
           font-size: 1.8rem; }
       .projects-page--projects--project8 {
-        height: 33rem;
-        width: 37rem;
+        height: 30rem;
+        width: 34rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: 2rem;
